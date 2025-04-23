@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@681&family=Rubik+Dirt&display=swap");
+@font-face {
+  font-family: futurak;
+  src: url("./assets/fonts/futurak.ttf");
+}
+:root {
+  --blue: #1e90ff;
+  --gray: #909090;
+}
+
+* {
+
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.navbar {
+  padding-left: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  width: 180px;
+  margin: 4px;
+}
+
+.items {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.franchie-btn {
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  padding: 14px 20px;
+  border-radius: 25px;
+}
+.ordernow-btn {
+  border: none;
+  background-color: #ed1c24;
+  color: white;
+
+  padding: 15px 25px;
+  border-radius: 25px;
+}
+
+.home {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 120px;
+}
+.para {
+  display: flex;
+  width: 650px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  flex-wrap: wrap;
+  gap: 9px;
+  line-height: 40px;
+}
+.saltn {
+  font-size: 40px;
+  font-family: futurak;
+}
+
+.menu {
+  display: none;
+}
+.line {
+  color: var(--gray);
+  text-align: center;
+}
+
+.box-cantainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 30px;
+  gap: 30px;
+  padding-bottom: 30px;
+}
+
+.order-btn-box {
+  border: 1px solid var(--gray);
+  padding: 10px 40px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.box-img {
+  width: 300px;
+  height: 150px;
+}
+
+.home-2 {
+  background-color: rgb(19, 19, 19);
+}
+
+.home-2-cant {
+  width: 100%;
+  margin: 30px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-2-cant-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  height: 400px;
+  width: 38%;
+  padding: 50px;
+}
+
+.box-of {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  width: 500px;
+}
+.home-2-cant-box-of {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  width: 100%;
+  padding: 20px;
+}
+
+.red-text {
+  color: red;
+  letter-spacing: 8px;
+}
+.after-red-text {
+  font-size: 30px;
+}
+.location,
+.ph {
+  color: var(--gray);
+}
+.slatn-paper {
+  font-family: futurak;
+}
+
+.locations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  flex-wrap: wrap;
+
+  padding: 40px 0px;
+  gap: 30px;
+
+}
+.location-images {
+  width: 30%;
+}
+
+.social-feed {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-wrap: wrap;
+  padding: 40px 0px;
+  gap: 20px;
+
+}
+
+
+@media (max-width: 900px) {
+  .menu {
+    display: block;
+    font-size: 3rem;
+  }
+
+  .items {
+    display: none;
+  }
+  .navbar {
+    justify-content: space-between;
+    padding: 0px 30px;
+  }
+
+  .para {
+    display: flex;
+    width: 350px;
+    font-size: 20px;
+    gap: 9px;
+    line-height: 20px;
+  }
+  .saltn {
+    font-size: 30px;
+    font-family: futurak;
+  }
+  .line {
+    font-size: 10px;
+    width: 90%;
+    padding-top: 20px;
+  }
+  .home-2-cant-box {
+    width: 78%;
+  }
+  .box-of {
+    width: 78%;
+  }
+  .locations {
+    width: 100%;
+  }
+  .location-images{
+    width: 90%;
+  }
+}

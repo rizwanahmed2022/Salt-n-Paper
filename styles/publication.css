@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@681&family=Rubik+Dirt&display=swap");
+@font-face {
+  font-family: futurak;
+  src: url("../assets/fonts/futurak.ttf");
+}
+*{
+
+        box-sizing: border-box;
+}
+:root {
+        --blue: #1e90ff;
+        --gray: #909090;
+      }
+
+
+.cantainer{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+}
+.books{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+        height: 700px;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        position: relative;
+}
+
+.books img{
+        width: 99%;
+        transition: 0.61s;
+}
+.books img:hover{
+        transform: scale(1.2);
+}
+
+.home{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0px;
+        flex-direction: column;
+}
+.home-h1{
+        font-size: 17px;
+}
+.home-h2{
+        font-size: 15px;
+        color: var(--gray);
+}
